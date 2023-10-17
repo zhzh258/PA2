@@ -130,19 +130,19 @@ class TODO2_MyCat(Component):
         '''
         I use function Component.setRotateExtent() to set the limit on rotation angle. 
         '''
-        leg1.setRotateExtent(leg1.vAxis, -10, -10)
+        leg1.setRotateExtent(leg1.vAxis, -10, 10)
         leg1.setRotateExtent(leg1.wAxis, -10, 10)
         leg1.setRotateExtent(leg1.uAxis, -45, 45)
 
-        leg2.setRotateExtent(leg2.vAxis, -10, -10)
+        leg2.setRotateExtent(leg2.vAxis, -10, 10)
         leg2.setRotateExtent(leg2.wAxis, -10, 10)
         leg2.setRotateExtent(leg2.uAxis, -45, 45)
 
-        leg3.setRotateExtent(leg3.vAxis, -10, -10)
+        leg3.setRotateExtent(leg3.vAxis, -10, 10)
         leg3.setRotateExtent(leg3.wAxis, -10, 10)
         leg3.setRotateExtent(leg3.uAxis, -45, 45)
 
-        leg4.setRotateExtent(leg4.vAxis, -10, -10)
+        leg4.setRotateExtent(leg4.vAxis, -10, 10)
         leg4.setRotateExtent(leg4.wAxis, -10, 10)
         leg4.setRotateExtent(leg4.uAxis, -45, 45)
 
